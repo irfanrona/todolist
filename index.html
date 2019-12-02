@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <title>Todo App</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Todos</h1>
+        <input type="text" placeholder="filter todo" id="search-text">
+        <label for="filter">
+            <input type="checkbox" id="hide-completed">
+            <span>Hide Completed</span>
+        </label>
+        <div id="todos"></div>
+        <form id="new-todo">
+            <input type="text" placeholder="Masukan sesuatu" name="text">
+            <button>Add Todo</button>
+        </form>
+    </div>
+    <!-- main script -->
+    <script src="todo-function.js"></script>
+    <script src="app.js"></script>
+    <!-- style script -->
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+</body>
+
+</html>
